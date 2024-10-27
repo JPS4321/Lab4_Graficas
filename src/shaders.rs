@@ -45,8 +45,8 @@ pub fn vertex_shader(vertex: &Vertex, uniforms: &Uniforms) -> Vertex {
 }
 
 pub fn fragment_shader(fragment: &Fragment, uniforms: &Uniforms) -> Color {
-    black_and_white(fragment, uniforms)
-    // dalmata_shader(fragment, uniforms)
+    //black_and_white(fragment, uniforms)
+     dalmata_shader(fragment, uniforms)
     // cloud_shader(fragment, uniforms)
     // cellular_shader(fragment, uniforms)
     // lava_shader(fragment, uniforms)
